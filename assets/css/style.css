@@ -1,0 +1,476 @@
+
+
+
+.headr{
+
+    width: 1300px;
+    height:60px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.logo{
+
+    width: 200px;
+    background-color: rgb(251, 255, 254);
+    height: 60px;
+    align-content: center;
+    cursor: pointer;
+
+   
+
+}
+
+.nav{
+
+    width: 500px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+
+}
+
+ul{
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.Collections_img{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 200px;
+
+
+}
+
+
+.Collections{
+
+    width: 650px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+} 
+
+.img{
+    width: 650px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.them{
+
+    width: 400px;
+    height: 250px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+h1{
+
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+}
+h2{
+
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+p{
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+
+button{
+
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+
+.homiylar{
+
+    height: auto;
+    width: 1300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+    
+}
+
+
+.premium_products{
+
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 35px;
+
+
+
+}
+
+.premium{
+
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    
+
+}
+
+.products{
+
+    width: 1300px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.monitor{
+
+    width: 600px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+    
+
+    
+}
+
+.kolsa{
+
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    display: grid;
+    grid-gap: 20px;
+}
+
+.kolsa1{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+    cursor: pointer;
+
+
+
+
+}
+.kolsa2{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid gray;
+    border-radius: 5px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+    cursor: pointer;
+
+
+
+
+}
+
+
+.New_products_container{
+
+    width: 1300px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 0 auto;
+
+}
+
+.Newproducts{
+
+    width: 290px;
+    height: 480px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.theme_2{
+
+    width: 100%;
+    height:50px ;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+
+}
+
+.Best_Seller_Products{
+
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 600px;
+}
+
+.seller{
+    
+    width: 1300px;
+    height:500px;
+   display: flex;
+   justify-content: space-evenly;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+
+.sell{
+
+    width: 360px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+}
+
+.theme_3{
+
+    width: 1300px;
+    height: 50px;
+    margin:  0 auto;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+
+.more{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contakt{
+
+    width: 1300px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+.katalog{
+
+    width: 350px;
+    height: 350px;
+}
+
+
+.katalog_4{
+
+     width: 350px;
+    height: 350px;
+
+}
+
+#our{
+
+    font-size: 35px;font-weight: 500;
+
+}
+
+img{
+
+    width: 100%;
+    height: 100%;
+    transform: rotate(20px);
+}
+
+img:hover{
+
+    transform: scale(1.1);
+}
+
+#telvezor{
+
+    width: 290px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+#p{
+
+    margin-top: 100px;
+}
+
+.h2{
+
+    margin-top: -5px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text_1{
+
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+p{
+
+    margin-bottom: 50px;
+}
+
+
+.footer{
+
+    width:2000;
+    height: 50px;
+    background-color: rgb(52, 53, 53);
+    color: white;
+}
+
+.content{
+
+    width: 1400px;
+    height: 50px;
+    background-color: rgb(52, 53, 53);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline_content{
+width: 200px;
+height: 50px;
+background-color: rgb(52, 53, 53);
+align-content: center;
+
+
+}
+.inline_content_2{
+
+    width: 400px;
+height: 50px;
+background-color: rgb(52, 53, 53);
+
+
+}
+#Tribute{
+margin-top: 20px;
+}
+
+#flag1{
+
+    width: 300px;
+}
+
+
+
+
+
+/* search_container */
+
+.search{
+
+    width: 1300px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+
+input{
+
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 10px;
+}
+input:focus{
+border: 5px solid rgba(110, 219, 255, 0.879);
+    
+}
+
+.search_container{
+
+    width: 1300px;
+    height: 1600px;
+    margin-top: 100px;
+}
+
+.produkts{
+
+    width: 100%;
+    height: 468px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kiyimlar{
+
+    width: 288px;
+    height: 468px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+
+}
+
+
+a:active{
+
+    color: black;
+}
